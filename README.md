@@ -1,6 +1,6 @@
 ## d3vnul10.github.io
 
-![me](/images/me.jpeg)
+<img src="/images/me.jpeg" alt="me" width="150"/>
 
 ## About Me
 
