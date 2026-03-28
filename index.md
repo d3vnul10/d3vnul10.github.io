@@ -48,7 +48,7 @@ Hey there ⚡, welcome to my Cybersecurity Blog! I’m **d3vnul10**. Here, I pos
     <p><strong>ID:</strong> Aderogba Rufai</p>
     <p><strong>Whoami:</strong> d3vnul10</p>
     <p><strong>Role:</strong> CTF Player | Bug Hunter | Penetration Tester | Sec. Breaker | Learner</p>
-    <p><strong>Medium:</strong> <a href="https://devnull-0.medium.com">@devnull-0</a></p>
+    <p><strong>Medium:</strong> <a href="https://devnull-0.medium.com">@devnull-0</a>(Check out for previous Writeups)</p>
     <p><strong>Skills:</strong> Web Hacking | API Hacking | AppSec | Binary Exploitation</p>
     <p><strong>Programming:</strong> Bash | Python | PHP | JavaScript | C</p>
     <p><strong>My Learning Platforms:</strong> PortSwigger | THM | HTB | PentestLab | offsec | and more</p>
