@@ -40,7 +40,7 @@ Hey there ⚡, welcome to my Cybersecurity Blog! I’m **d3vnul10**. Here, I pos
 <div style="display: flex; align-items: flex-start; gap: 40px; margin-bottom: 30px;">
 
   <!-- Profile Image -->
-  <img src="/images/me.jpeg" alt="d3vnul10" width="300" height="180" style="border-radius: 8px; padding: 5px;"/>
+  <img src="/images/me.jpeg" alt="d3vnul10" width="300" height="250" style="border-radius: 8px; padding: 5px;"/>
 
   <!-- Profile Info -->
   <div style="font-family: 'Courier New', monospace; line-height: 1.6;">
