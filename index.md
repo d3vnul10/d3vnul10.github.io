@@ -8,7 +8,7 @@ title: Home
   <a href="./index.html" class="nav-link">Main</a>
   <a href="/writeups/thm/index.html" class="nav-link">TryHackMe</a>
   <a href="/writeups/htb/index.html" class="nav-link">HackTheBox</a>
-  <a href="/writeup/pg/index.html" class="nav-link">ProvingGround</a>
+  <a href="/writeups/pg/index.html" class="nav-link">ProvingGround</a>
   <a href="/writeups/picoctf/index.html" class="nav-link">PicoCTF</a>
   <a href="/writeups/rootme/index.html" class="nav-link">ROOTME</a>
   <a href="/writeups/bbp/index.html" class="nav-link">BBP writeups</a>
