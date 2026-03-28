@@ -1,6 +1,6 @@
 ## d3vnul10.github.io
 
-![me] (/images/me.jpeg)
+![me](/images/me.jpeg)
 
 ## About Me
 
