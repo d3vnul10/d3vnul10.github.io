@@ -7,7 +7,7 @@ title: TryHackMe Writeups
 <hr>
 
 <!-- THM Profile Image -->
-![THM Profile](/images/thmtryhackme_profile.png)
+![THM Profile](/images/thm/tryhackme_profile.png)
 
 * * *
 
