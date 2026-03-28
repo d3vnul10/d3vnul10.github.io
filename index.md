@@ -17,18 +17,53 @@ title: Home
 
 <style>
 .nav-menu {
-  display: flex;           
-  gap: 20px;
-  flex-wrap: wrap; 
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  overflow-x: auto; 
+  padding-bottom: 10px;
+  -webkit-overflow-scrolling: touch; 
 }
 
 .nav-link {
-  text-decoration: none;   
+  text-decoration: none;
   font-weight: bold;
 }
 
 .nav-link:hover {
   text-decoration: underline;
+}
+
+.profile-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 30px;
+  align-items: flex-start;
+}
+
+.profile-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.profile-info {
+  font-family: 'Courier New', monospace;
+  line-height: 1.6;
+  flex: 1 1 250px;
+}
+
+@media (max-width: 600px) {
+  .nav-menu {
+    gap: 10px;
+  }
+
+  .profile-container {
+    flex-direction: column;
+    gap: 15px;
+  }
 }
 </style>
 
