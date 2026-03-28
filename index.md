@@ -3,15 +3,14 @@ layout: default
 title: Home
 ---
 
-<!-- Navigation Menu -->
-<div class="nav-menu" style="margin-bottom: 20px;">
+<div class="nav-menu">
   <a href="./index.html" class="nav-link">Main</a>
   <a href="/writeups/thm/index.html" class="nav-link">TryHackMe</a>
   <a href="/writeups/htb/index.html" class="nav-link">HackTheBox</a>
-  <a href="/writeups/pg/index.html" class="nav-link">ProvingGround</a>
+  <a href="/writeup/pg/index.html" class="nav-link">ProvingGround</a>
   <a href="/writeups/picoctf/index.html" class="nav-link">PicoCTF</a>
   <a href="/writeups/rootme/index.html" class="nav-link">ROOTME</a>
-  <a href="/writeups/bbp/index.html" class="nav-link">BBP writeups</a>
+  <a href="/writeups/bbp/index.html" class="nav-link">BBP Writeups</a>
   <a href="/writeups/articles/index.html" class="nav-link">Random Articles</a>
 </div>
 
@@ -22,7 +21,7 @@ title: Home
   flex-wrap: wrap;
   overflow-x: auto; 
   padding-bottom: 10px;
-  -webkit-overflow-scrolling: touch; 
+  -webkit-overflow-scrolling: touch;
 }
 
 .nav-link {
@@ -47,22 +46,33 @@ title: Home
   height: auto;
   border-radius: 8px;
   padding: 5px;
+  flex: 0 0 300px; 
 }
 
 .profile-info {
   font-family: 'Courier New', monospace;
   line-height: 1.6;
-  flex: 1 1 250px;
+  flex: 1 1 300px; 
+  min-width: 200px;
 }
 
-@media (max-width: 600px) {
-  .nav-menu {
-    gap: 10px;
-  }
-
+@media (max-width: 768px) {
   .profile-container {
     flex-direction: column;
-    gap: 15px;
+    align-items: center;
+    text-align: center;
+  }
+  .profile-info {
+    flex: 1 1 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-container img {
+    width: 90%;
+  }
+  .nav-menu {
+    gap: 10px;
   }
 }
 </style>
@@ -73,49 +83,47 @@ title: Home
 
 Hey there ⚡, welcome to my Cybersecurity Blog! I’m **d3vnul10**. Here, I post hacking guides, writeups, exploits, and anything I uncover in the world of hacking.
 
-<div style="display: flex; align-items: flex-start; gap: 40px; margin-bottom: 30px;">
+<div class="profile-container">
 
-  <!-- Profile Image -->
-  <img src="/images/me.jpeg" alt="d3vnul10" width="300" height="250" style="border-radius: 8px; padding: 5px;"/>
+  <img src="/images/me.jpeg" alt="d3vnul10"/>
 
-  <!-- Profile Info -->
-  <div style="font-family: 'Courier New', monospace; line-height: 1.6;">
+  <div class="profile-info">
     <p><strong>ID:</strong> Aderogba Rufai</p>
     <p><strong>Whoami:</strong> d3vnul10</p>
     <p><strong>Role:</strong> CTF Player | Bug Hunter | Penetration Tester | Sec. Breaker | Learner</p>
-    <p><strong>Medium:</strong> <a href="https://devnull-0.medium.com">@devnull-0</a>(Check out for previous Writeups)</p>
+    <p><strong>Medium:</strong> <a href="https://devnull-0.medium.com" target="_blank">@devnull-0</a> (check out previous writeups)</p>
     <p><strong>Skills:</strong> Web Hacking | API Hacking | AppSec | Binary Exploitation</p>
     <p><strong>Programming:</strong> Bash | Python | PHP | JavaScript | C</p>
-    <p><strong>My Learning Platforms:</strong> PortSwigger | THM | HTB | PentestLab | offsec | and more</p>
-    <p><strong>My CTF Platforms:</strong> RootMe | PwnTillDawn | PicoCTF | OverTheWire | and more</p>
+    <p><strong>Learning Platforms:</strong> PortSwigger | THM | HTB | PentestLab | OffSec | etc.</p>
+    <p><strong>CTF Platforms:</strong> RootMe | PwnTillDawn | PicoCTF | OverTheWire | etc.</p>
   </div>
 
 </div>
 
 * * *
-### **TryHackMe Writeups:~#**
+### **TryHackMe Writeups:~#**                                                                                                                                                
+* * * 
+
+* * *
+### **ProvingGrounds:~#**                                                                                                                                                
 * * *
 
 * * *
-### **ProvingGrounds:~#**
+### **Hack The Box Writeups:~#**                                                                                                                                                
 * * *
 
 * * *
-### **Hack The Box Writeups:~#**
+### **PicoCTF:~#**                                                                                                                                                
 * * *
 
 * * *
-### **PicoCTF:~#**
+### **RootMe:~#**                                                                                                                                                
 * * *
 
 * * *
-### **RootMe:~#**
+### **BBP writeups:~#**                                                                                                                                                
 * * *
 
 * * *
-### **BBP writeups:~#**
-* * *
-
-* * *
-### **Articles**
+### **Articles:~#**                                                                                                                                                
 * * *
