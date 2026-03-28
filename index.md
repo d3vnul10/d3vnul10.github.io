@@ -8,7 +8,6 @@ title: Home
   <a href="./index.html" class="nav-link">Main</a>
   <a href="/writeups/thm/index.html" class="nav-link">TryHackMe</a>
   <a href="/writeups/htb/index.html" class="nav-link">HackTheBox</a>
-  <a href="/writeups/pwn/index.html" class="nav-link">PwnTillDawn</a>
   <a href="/writeup/pg/index.html" class="nav-link">ProvingGround</a>
   <a href="/writeups/picoctf/index.html" class="nav-link">PicoCTF</a>
   <a href="/writeups/rootme/index.html" class="nav-link">ROOTME</a>
@@ -52,6 +51,8 @@ Hey there ⚡, welcome to my Cybersecurity Blog! I’m **d3vnul10**. Here, I pos
     <p><strong>Medium:</strong> <a href="https://devnull-0.medium.com">@devnull-0</a></p>
     <p><strong>Skills:</strong> Web Hacking | API Hacking | AppSec | Binary Exploitation</p>
     <p><strong>Programming:</strong> Bash | Python | PHP | JavaScript | C</p>
+    <p><strong>My Learning Platforms:</strong> PortSwigger | THM | HTB | PentestLab | offsec | and more</p>
+    <p><strong>My CTF Platforms:</strong> RootMe | PwnTillDawn | PicoCTF | OverTheWire | and more</p>
   </div>
 
 </div>
@@ -66,10 +67,6 @@ Hey there ⚡, welcome to my Cybersecurity Blog! I’m **d3vnul10**. Here, I pos
 
 * * *
 ### **Hack The Box Writeups:~#**
-* * *
-
-* * *
-### **PwnTillDawn:~#**
 * * *
 
 * * *
