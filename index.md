@@ -7,7 +7,7 @@ title: Home
   <a href="./index.html" class="nav-link">Main</a>
   <a href="/writeups/thm/index.html" class="nav-link">TryHackMe</a>
   <a href="/writeups/htb/index.html" class="nav-link">HackTheBox</a>
-  <a href="/writeup/pg/index.html" class="nav-link">ProvingGround</a>
+  <a href="/writeups/pg/index.html" class="nav-link">ProvingGround</a>
   <a href="/writeups/picoctf/index.html" class="nav-link">PicoCTF</a>
   <a href="/writeups/rootme/index.html" class="nav-link">ROOTME</a>
   <a href="/writeups/bbp/index.html" class="nav-link">BBP Writeups</a>
@@ -33,44 +33,49 @@ title: Home
   text-decoration: underline;
 }
 
+/* Profile Section */
 .profile-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
   gap: 20px;
   margin-bottom: 30px;
   align-items: flex-start;
 }
 
 .profile-container img {
-  max-width: 100%;
-  height: auto;
+  width: 300px; /* fixed width for large screens */
+  height: 250px; /* fixed height */
   border-radius: 8px;
   padding: 5px;
-  flex: 0 0 300px; 
+  flex: 0 0 auto; /* prevents shrinking on large screens */
 }
 
 .profile-info {
   font-family: 'Courier New', monospace;
   line-height: 1.6;
-  flex: 1 1 300px; 
+  flex: 1 1 300px; /* flexible on smaller screens */
   min-width: 200px;
 }
 
+/* Responsive adjustments */
 @media (max-width: 768px) {
   .profile-container {
-    flex-direction: column;
+    flex-direction: column; /* stack image and text */
     align-items: center;
     text-align: center;
   }
+
   .profile-info {
-    flex: 1 1 100%;
+    flex: 1 1 100%; /* full width text */
   }
 }
 
 @media (max-width: 480px) {
   .profile-container img {
-    width: 90%;
+    width: 90%; /* shrink image on very small screens */
+    height: auto; /* maintain aspect ratio */
   }
+
   .nav-menu {
     gap: 10px;
   }
