@@ -12,6 +12,8 @@ title: Home
   <a href="/writeup/pg/index.html" class="nav-link">ProvingGround</a>
   <a href="/writeups/picoctf/index.html" class="nav-link">PicoCTF</a>
   <a href="/writeups/rootme/index.html" class="nav-link">ROOTME</a>
+  <a href="/writeups/bbp/index.html" class="nav-link">BBP writeups</a>
+  <a href="/writeups/articles/index.html" class="nav-link">Random Articles</a>
 </div>
 
 <style>
@@ -76,4 +78,12 @@ Hey there ⚡, welcome to my Cybersecurity Blog! I’m **d3vnul10**. Here, I pos
 
 * * *
 ### **RootMe:~#**
+* * *
+
+* * *
+### **BBP writeups:~#**
+* * *
+
+* * *
+### **Articles**
 * * *
