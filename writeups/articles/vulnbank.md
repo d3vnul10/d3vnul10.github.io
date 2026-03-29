@@ -5,7 +5,7 @@ title: VulnBank Writeup
 
 # 💀 VulnBank
 ### Category: WebHacking
-### URL: 
+### URL: https://vulnbank.org
 <hr>
 
 ### Description:
@@ -29,7 +29,7 @@ Step to Reproduce:
 1.Visit https://vulnbank.org/api/docs/
 
 2.Grab the doc there We will need it later
-![image](/images/vulnbank/home_page.png)
+![image](/images/vulnbank/apidoc.png)
 
 Vulnerality 3: Account Takeover through reset password token leakage 
 
