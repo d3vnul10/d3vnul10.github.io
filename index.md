@@ -12,6 +12,7 @@ title: Home
   <a href="/writeups/rootme/index.html" class="nav-link">ROOTME</a>
   <a href="/writeups/bbp/index.html" class="nav-link">BBP Writeups</a>
   <a href="/writeups/articles/index.html" class="nav-link">Random Articles</a>
+  <a href="/writeups/livectf/index.html" class="nav-link">Live CTF</a>
 </div>
 
 <style>
@@ -137,4 +138,8 @@ Hey there ⚡, welcome to my Cybersecurity Blog! I’m **d3vnul10**. Here, I pos
 
 * * *
 ### **Articles:~#**                                                                                                                                                
+* * *
+
+* * *
+### **Live CTF:~#**                                                                                                                                                
 * * *
