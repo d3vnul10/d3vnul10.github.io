@@ -107,8 +107,13 @@ Hey there ⚡, welcome to my Cybersecurity Blog! I’m **d3vnul10**. Here, I pos
 </div>
 
 * * *
-### **TryHackMe Writeups:~#**                                                                                                                                                
-* * * 
+### **TryHackMe Writeups:~#**
+- [[Oct 21 2025]] [Develpy](https://devnull-0.medium.com/develpy-tryhack-writeup-2ec70ff6d3ba) `python2, input injection`
+- [[Oct 21 2025]] [PickleRick](https://devnull-0.medium.com/pickle-rick-e8e8a5c6df21) `Info leak, Cmdline Injection`
+- [[Oct 21 2025]] [TomGhost](https://devnull-0.medium.com/tomghost-thm-3450ccef5b12) `CVE-2020-1938`
+- [[Mar 06 2026]] [Relevant](https://devnull-0.medium.com/relevant-hacking-a-window-machine-in-10-mins-473fa7d60918) `Window Machine, Unsecure ftp`
+
+* * *
 
 * * *
 ### **ProvingGrounds:~#**                                                                                                                                                
@@ -129,7 +134,8 @@ Hey there ⚡, welcome to my Cybersecurity Blog! I’m **d3vnul10**. Here, I pos
 - [[Dec 17 2025]] [Input injection2](https://devnull-0.medium.com/input-injection-2-picogym-96875d1f4159) `Binary, Buffer overflow`
 
 * * *
-### **RootMe:~#**                                                                                                                                                
+### **RootMe:~#**
+- [[Nov 17 2025]] [Blind SSTI](https://devnull-0.medium.com/python-blind-ssti-filters-bypass-9585f421db67) `SSTI, python, filter bypass`
 * * *
 
 * * *
