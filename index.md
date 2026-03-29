@@ -141,5 +141,10 @@ Hey there ⚡, welcome to my Cybersecurity Blog! I’m **d3vnul10**. Here, I pos
 * * *
 
 * * *
-### **Live CTF:~#**                                                                                                                                                
+### **Live CTF:~#**
+- [[Oct 27 2025]] [Hack the night](https://devnull-0.medium.com/deadface-ctf-2025-part3-hack-the-night-10d29525be79) `DeadfaceCTF 2025, web exploitation`
+- [[Oct 27 2025]] [Stolen Secret](https://devnull-0.medium.com/deadface-ctf-2025-part-1-stolen-secrets-ad71c9397209) `DeadfaceCTF 2025, Forensics pcap file`
+- [[Oct 27 2025]] [SQLite007](https://devnull-0.medium.com/deadface-ctf-2025-part-2-sqlite007-000c4609e020) `DeadfaceCTF 2025, SQLI, web`
+- [[Oct 27 2025]] [EpicSales](https://devnull-0.medium.com/epicsales-deadface-2025-92512872d905) `DeadfaceCTF 2025, SQL`
+
 * * *
