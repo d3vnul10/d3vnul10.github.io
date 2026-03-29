@@ -22,5 +22,8 @@ This is a **collection of writeups from the Live Jeopardy CTF** that I participa
 - [[Oct 27 2025]] [SQLite007](https://devnull-0.medium.com/deadface-ctf-2025-part-2-sqlite007-000c4609e020) `DeadfaceCTF 2025, SQLI, web`
 - [[Oct 27 2025]] [EpicSales](https://devnull-0.medium.com/epicsales-deadface-2025-92512872d905) `DeadfaceCTF 2025, SQL`
 <hr>
+<hr>
+<h4 class="menu-header" id="livectf">Writeups on Github:</h4>
+<hr>
 
 
