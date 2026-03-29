@@ -112,7 +112,6 @@ Hey there ⚡, welcome to my Cybersecurity Blog! I’m **d3vnul10**. Here, I pos
 - [[Oct 21 2025]] [PickleRick](https://devnull-0.medium.com/pickle-rick-e8e8a5c6df21) `Info leak, Cmdline Injection`
 - [[Oct 21 2025]] [TomGhost](https://devnull-0.medium.com/tomghost-thm-3450ccef5b12) `CVE-2020-1938`
 - [[Mar 06 2026]] [Relevant](https://devnull-0.medium.com/relevant-hacking-a-window-machine-in-10-mins-473fa7d60918) `Window Machine, Unsecure ftp`
-
 * * *
 
 * * *
@@ -120,18 +119,18 @@ Hey there ⚡, welcome to my Cybersecurity Blog! I’m **d3vnul10**. Here, I pos
 * * *
 
 * * *
-### **Hack The Box Writeups:~#**                                                                                                                                                
+### **Hack The Box Writeups:~#**                                                                                                                                        * * *
 * * *
 
 * * *
 ### **PicoCTF:~#**                                                                                                                                                
-* * *
 - [[Oct 23 2025]] [Crack The Gate1](https://devnull-0.medium.com/crack-the-gate-1-picomini-2025-56b29d437f1d) `debug message, auth bypass`
 - [[Oct 23 2025]] [Crack The Gate2](https://devnull-0.medium.com/crack-the-gate-2-picomini-d6aae6cbca03) `Rate limit   Bypass, x-Forwarded-For`
 - [[Oct 28 2025]] [Byp4ss3d](https://devnull-0.medium.com/byp4ss3d-picomini-by-cmu-africa-271ea202309c) `.htaccess overide, file upload, shell`
 - [[Nov 09 2025]] [JAuth](https://devnull-0.medium.com/jauth-picoctf-3325e62c4321) `JWT, ALG:NONE, piv ESc`
 - [[Dec 17 2025]] [Input injection1](https://devnull-0.medium.com/input-injection-1-picogym-77fb1ae909b7) `Binary, Buffer overflow`
 - [[Dec 17 2025]] [Input injection2](https://devnull-0.medium.com/input-injection-2-picogym-96875d1f4159) `Binary, Buffer overflow`
+* * *
 
 * * *
 ### **RootMe:~#**
@@ -143,7 +142,8 @@ Hey there ⚡, welcome to my Cybersecurity Blog! I’m **d3vnul10**. Here, I pos
 * * *
 
 * * *
-### **Articles:~#**                                                                                                                                                
+### **Articles:~#**
+- [[Mar 29 2026]] [VulnBank](https://d3vnul10.github.io/writeups/articles/vulnbank.html) `API Hacking, Priv Esc, WebHacking Owasp`
 * * *
 
 * * *
@@ -152,5 +152,4 @@ Hey there ⚡, welcome to my Cybersecurity Blog! I’m **d3vnul10**. Here, I pos
 - [[Oct 27 2025]] [Stolen Secret](https://devnull-0.medium.com/deadface-ctf-2025-part-1-stolen-secrets-ad71c9397209) `DeadfaceCTF 2025, Forensics pcap file`
 - [[Oct 27 2025]] [SQLite007](https://devnull-0.medium.com/deadface-ctf-2025-part-2-sqlite007-000c4609e020) `DeadfaceCTF 2025, SQLI, web`
 - [[Oct 27 2025]] [EpicSales](https://devnull-0.medium.com/epicsales-deadface-2025-92512872d905) `DeadfaceCTF 2025, SQL`
-
 * * *
