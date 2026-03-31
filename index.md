@@ -150,7 +150,7 @@ Hey there ⚡, welcome to my Cybersecurity Blog! I’m **d3vnul10**. Here, I pos
 * * *
 ### **Articles:~#**
 - [[Mar 29 2026]] [VulnBank](https://d3vnul10.github.io/writeups/articles/vulnbank.html) `API Hacking, Priv Esc, WebHacking Owasp`
-- [[Mar 31 2026]] [Snare](https://d3vnul10.github.io/writeups/articles/snare.html)`PwnTillDawn LFI Boot2Root`
+- [[Mar 31 2026]] [Snare](https://d3vnul10.github.io/writeups/articles/snare.html) `PwnTillDawn LFI Boot2Root`
 
 * * *
 
