@@ -84,7 +84,7 @@ title: Home
 </style>
 
 * * *
-### Welcome to my personal blog
+### Welcome to my personal CyberSec blog
 * * *
 
 Hey there ⚡, welcome to my Cybersecurity Blog! I’m **d3vnul10**. Here, I post hacking guides, writeups, exploits, and anything I uncover in the world of hacking.
@@ -121,7 +121,7 @@ Hey there ⚡, welcome to my Cybersecurity Blog! I’m **d3vnul10**. Here, I pos
 * * *
 
 * * *
-### **Hack The Box Writeups:~#**                                                                                                                                        * * *
+### **Hack The Box Writeups:~#**
 
 * * *
 
@@ -150,6 +150,7 @@ Hey there ⚡, welcome to my Cybersecurity Blog! I’m **d3vnul10**. Here, I pos
 * * *
 ### **Articles:~#**
 - [[Mar 29 2026]] [VulnBank](https://d3vnul10.github.io/writeups/articles/vulnbank.html) `API Hacking, Priv Esc, WebHacking Owasp`
+- [[Mar 31 2026]] [Snare](https://d3vnul10.github.io/writeups/articles/snare.html)`PwnTillDawn LFI Boot2Root`
 
 * * *
 
