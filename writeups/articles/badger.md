@@ -1,6 +1,6 @@
 ---
-layout:default
-title:NFS TO ROOT
+layout: default
+title: nfs hacking
 ---
 
 # 💀 Badger
