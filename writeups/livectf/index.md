@@ -21,6 +21,7 @@ This is a **collection of writeups from the Live Jeopardy CTF** that I participa
 - [[Oct 27 2025]] [Stolen Secret](https://devnull-0.medium.com/deadface-ctf-2025-part-1-stolen-secrets-ad71c9397209) `DeadfaceCTF 2025, Forensics pcap file`
 - [[Oct 27 2025]] [SQLite007](https://devnull-0.medium.com/deadface-ctf-2025-part-2-sqlite007-000c4609e020) `DeadfaceCTF 2025, SQLI, web`
 - [[Oct 27 2025]] [EpicSales](https://devnull-0.medium.com/epicsales-deadface-2025-92512872d905) `DeadfaceCTF 2025, SQL`
+- [[May 1 2026]]  [CYSSSA CTF](https://devnull-0.medium.com/cysssa-ctf-2026-write-ups-319dd81c0944)`CYSSSA CTF, Academic competition`
 <hr>
 <hr>
 <h4 class="menu-header" id="livectf">Writeups on Github:</h4>
