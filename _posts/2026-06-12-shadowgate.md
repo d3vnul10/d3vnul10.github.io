@@ -4,7 +4,7 @@ date: 2026-06-12
 categories: [AD, Easy]
 tags: [AD, kerberoasting, asreproasting, ADCS]
 image:
-  path:/assets/shadowgate.png
+  path: /assets/shadowgate.png
 ---
 
 
